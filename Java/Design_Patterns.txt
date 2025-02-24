@@ -1,0 +1,93 @@
+1. What is a design pattern?
+=> A design pattern is a reusable, proven solution to a common software problem or just simply the structured solution for common problems. Think of it as a blue print or best practice that  helps developer write efficient, scalable and maintainable codes.
+2. Why do we need design patterns?
+-Code reusability where we write once and use multiple times.
+-Scalability where it is adaptable changes.
+-Maintainability where it is easier to understand and modify
+-Better code structure which applies to industry best  practice
+-Avoid reinventing the wheel where there is no need to solve problems from scratch
+3. What are types of design patterns and 5 example for each?
+-Creational which deals with how objects are created
+Examples
+=>Singleton which ensures that there is only one instance of class and provides a global access point to it.
+=>Factory which creates objects without exposing their instantiation logic, subclasses alter the type of objects that will be created and it only creates a single family of objects.
+=>Abstract Factory which creates a families of related objects without specifying their concrete classes.
+=>Builder which simplifies complex object creation step by step.
+=>Prototype which clones existing objects instead of creating new ones, avoiding costly creation and initialization.
+=>Lazy initialization defers the creation of an object until it is actually needed.
+=>Object pool which maintains a pool of reusable objects to improve performance by reusing expensive-to-create objects.
+-Structural which deals with how objects are created
+Examples
+=>Adapter which converts one interface to another to make them compatible.
+=>Facade which adds a simple interface to complex subsystems.
+=>Decorator which dynamically adds behavior to objects without modifying their original classes.
+=>Proxy which controls access to objects.
+=>Bridge which separates abstraction from implementation, allowing both to evolve independently.
+=>Composite which treats a group of object as a single object.
+=>Module which organizes code into logical groups to improve maintainability and reusability.
+-Behavioral which deals with how objects communicate
+Examples
+=>Observer which notifies multiple observers when its state changes.
+=>Strategy which enables algorithm switching at run time.
+=>Command which passes a request as an object, allowing undo/redo functionalities as well as parameterization.
+=>Chain of Responsibility which encapsulates a request along a chain of handlers until one handles it.
+=>State which changes behavior based on object's state.
+4. Which design patterns are most suitable for this real-world uses cases?
+a)Database connections=>Singleton and Abstract Factory
+b)Logger classes=>Singleton
+c)Configuration managers=>Singleton
+d)Payment methods=>Factory and Strategy
+e)UI themes=>Abstract Factory
+f)Creating immutable objects=>Builder
+g)HTTP request builders=>Builder
+h)Object caching=>Prototype and Proxy
+i) Deep copy vs shallow copy=>Prototype
+j)Adapting incompatible systems=>Adapter
+k)Extending functionalities of UI components=>Decorator
+l)Adding encryption to data streams=>Decorator
+m)Simplifying interactions with database, third party APIs and subsystems=>Facade
+n)Lazy loading=>Proxy
+o)File system hierarchy=>Composite
+p)GUI elements=>Composite
+q)Event listeners, and real-time data updates=>Observers
+r)GUI buttons and remote control actions=>Command
+s)Event handling and middleware authentication=>Chan of responsibility
+t)Traffic light systems and vending machines=>State
+5. What each and every discussed above design patterns requires to be implemented?
+a)Singleton
+=> Used when we need only one instance of class, have a global access to it and good if it is a thread safe (Multiple threads cannot create multiple instances of it)
+=> We need to have a private constructor to prevent direct instantiation, private static inner helper class with private static final instance to make instance not overridden and thread safe and finally a public static get instance that returns a instance of a class. 
+b)Factory
+c)Abstract factory
+e)Builder
+f)Prototype
+g)Object pool
+i)Lazy initialization
+j)Adapter
+=> Used when we want to make two or more incompatible systems to work together.
+=> Has two types which are class Adapter which uses inheritance => extends (Used to add behavior) and object Adapter which uses composition (Has-a relationship).
+=> There are two types of Has-a relationship which is aggregation (Week dependence) and composition (Strong dependence).
+k)Decorator
+l)Facade
+m)Proxy
+n)Composite
+o)Bridge
+p)Module
+q)Command
+r)Chain of responsibility
+s)State
+t)Observer
+=> Used when we want an object (Subject or Observable) to maintain a list of dependent objects (Observers) and notifies them whenever it's state changes so that they react accordingly. It is used in publish/subscribe systems.
+=> It is composed by observable interface, observers interface and concrete observer, concrete observable class class with observable implementation.
+u)Strategy
+6. What is the difference between functions and closures, functions and procedures?
+=> Functions does not remember past values unlike closure which are functions(inner functions) that can remember the past values from the parent scope.
+=>A procedure does not return the value unlike the function.
+7. What is a programming paradigm and its 6 types?
+=>It is a style of writing code.
+-Imperative => Step by step instructions are given to a computer program
+-Procedural => Special type of Imperative which combines procedures/functions to make the program more robust.
+-Declarative => Just output description is given without step by step instructions.
+-OOP => Objects are used to represent real world entities.
+-Functional => Only functions are used to make a program with no changing values or side effects.
+-Logical => Define rules and facts then the computer figures out the output based on logic.

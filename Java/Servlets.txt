@@ -1,0 +1,33 @@
+1. What is a servlet?
+=> It is a java class that runs on a web server and process client requests (usually https) and generates responses. It is a key component in Java EE for building dynamic web application. It serves as a controller in web applications through handling requests and responses.
+2. What are key features of servlets?
+-Handles http requests and responses
+-Multi-threaded by default
+-Lifecycle managed by servlet container like Tomcat, jetty, etc.
+-Works with databases, APIs, and business logic
+-Platform independent which means it can run on any java supported server.
+3. What is the working mechanism or request-response cycle for a servlet?
+1.Client or browser sends an http request like in form submission, API call, etc.
+2. Web server or servlet container like Tomcat, Jetty receives the request and forwards it to the servlet in charge.
+3. Servlet process the request like query DB, execute logic and others.
+4.Servlet generates a response in format such as html, JSON, and XML
+5.Web server sends back the response to the client.
+4. What is the lifecycle of the servlet?
+=> It goes through three main phases.
+1.Loading and initialization => it is done once in init () method when the servlet is first requested.
+2.Request handling => Each client requests service () which class do Get(), do Post(), do Put() and delete.
+3.Destruction => It is destroyed using destroy() for freeing resources.
+5. What is the MIME and examples?
+=> It stands for Multipurpose Internet Mail Extensions. It defines how different types of files are transmitted over the internet especially in emails and http responses. Syntax is type/subtype
+Examples
+application/j son, application/pdf, audio/mp3, video/mp4, text/html, text/plain, text/csv, image/gif, etc.
+6. What is JSP?
+=> It stands for Java Server Pages. It is a technology that is used to create dynamic web content by embedding java codes directly into html pages. It allows side server programming. They are compiled to servlets that run on web server.
+7. What are key features of JSP?
+=>JSP file which is an html file with embedded java codes between <%%> characters under .JSP extension.
+=>JSP implicit objects. These are set of objects that can be used directly within the page without explicitly instantiating them. They include request, response, session, out, application from servlet context, config, page context, page, and exception.
+=>Directives which are instructions that provide global information about the page and are used to control the behavior of JSP engine. They include page, tag lib, and include
+=>JSP actions. XML like tags that perform certain actions on the page. They include <JSP: include>, <JSP: forward>, <JSP: param>, <JSP: use bean>, etc.
+=>Expressions and scriptlet. Expression is a shorthand notation for scriptlet.
+=>JSP tags. These are various standard tags and frameworks like JSTL to add more functionalities in JSP in elegant way such as iterations, conditionals, and formatting.
+=>Expression language which simplifies access to application data. Its syntax ${}
