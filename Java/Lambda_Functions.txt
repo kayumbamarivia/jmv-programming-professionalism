@@ -1,0 +1,9 @@
+1. What is a lambda function or lambda expression in java?
+=>It short block of code that takes in parameters, perform some operations an returns a result. It eliminates boilerplate codes that is usually required when implementing functional interfaces (interfaces with only one abstract method) like Runnable, Comparator, Predicate, Consumer, Supplier, Function, Bi Function. It was introduced as feature in java 8 to add presentation of anonymous functions in java as well as addressing function-style programming.
+Its syntax is (params) -> {body}
+2. In which java package can we find built-in functional interfaces?
+=> java. util. function
+3. Example of using method references for lambda expression?
+=>Method reference (System. out:: print ln) is equivalent to (name) -> System. out. print ln(name)
+4. What is the use @ Functional Interface from java . lang package?
+=>It is optional, but if it is there it insists the one-abstract method in a functional interface by providing compile time error. It does not let you wait for run time error.
