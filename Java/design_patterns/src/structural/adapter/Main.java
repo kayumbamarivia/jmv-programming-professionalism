@@ -1,4 +1,4 @@
-package adapter;
+package structural.adapter;
 
 interface MediaPlayer {
     void play(String fileName, String fileType);
@@ -11,7 +11,7 @@ class VlcPlayer {
        System.out.println("Playing MP4 file: " + fileName);
    }
 }
-// Using Class adapter
+// Using Class structural.adapter
 class MediaAdapter extends VlcPlayer implements MediaPlayer {
     public void play(String fileName, String fileType) {
         if (fileType.equalsIgnoreCase("mp4")) {
@@ -24,7 +24,7 @@ class MediaAdapter extends VlcPlayer implements MediaPlayer {
     }
 }
 
-// Using object adapter which is dependence injection
+// Using object structural.adapter which is dependence injection
 class AdvancedMediaAdapter implements MediaPlayer {
     private final VlcPlayer vlcPlayer;
     public AdvancedMediaAdapter() {

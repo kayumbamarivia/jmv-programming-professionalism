@@ -1,7 +1,6 @@
-package observer;
+package behavioral.observer;
 
 import java.util.ArrayList;
-import java.util.List;
 
 interface Observer {
     void update(String msg);
