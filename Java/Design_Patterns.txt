@@ -16,7 +16,7 @@ Examples
 =>Prototype which clones existing objects instead of creating new ones, avoiding costly creation and initialization.
 =>Lazy initialization defers the creation of an object until it is actually needed.
 =>Object pool which maintains a pool of reusable objects to improve performance by reusing expensive-to-create objects.
--Structural which deals with how objects are created
+-Structural which deals with how objects are structured
 Examples
 =>Adapter which converts one interface to another to make them compatible.
 =>Facade which adds a simple interface to complex subsystems.
@@ -60,6 +60,8 @@ a)Singleton
 b)Factory
 c)Abstract factory
 e)Builder
+=>Used when we need to construct a complex object step by step. This is crucial if we do not want to use parametrized constructor with many fields to which some might be optional.
+=>It needs to inject an object of class to build and also return the object of itself in its methods as well as the object of the built class afterwards.
 f)Prototype
 g)Object pool
 i)Lazy initialization
@@ -78,7 +80,7 @@ r)Chain of responsibility
 s)State
 t)Observer
 => Used when we want an object (Subject or Observable) to maintain a list of dependent objects (Observers) and notifies them whenever it's state changes so that they react accordingly. It is used in publish/subscribe systems.
-=> It is composed by observable interface, observers interface and concrete observer, concrete observable class class with observable implementation.
+=> It is composed by observable interface, observers interface and concrete observer, concrete observable class with observable implementation.
 u)Strategy
 6. What is the difference between functions and closures, functions and procedures?
 => Functions does not remember past values unlike closure which are functions(inner functions) that can remember the past values from the parent scope.

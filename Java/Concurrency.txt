@@ -1,0 +1,33 @@
+1. What is a process?
+=>An independent program executing in memory. Processes can communicate via Inter-Process Communication (IPC). Each memory has its own memory space and can take longer to execute.
+2. What is a thread, thread pool, and what are three ways of creating a thread in java?
+=>This is smaller unit of a process that can be executed independently. Direct communication since they share same memory and they are executed faster and context switching.
+=>Thread pool is a managed group of worker threads that are reused to execute multiple threads instead of creating new threads each time.
+=>Threads can be created via this built-in supports thread class, runnable interface and executor framework with executor service.
+3. What is multithreading?
+=>This is the process of executing multiple threads (parts of a program) simultaneously to maximize CPU utilization. We need to do so for better CPU utilization, faster execution, responsiveness for UI applications like swing and java fx, and parallel processing.
+4. What are use of these famous methods  and keywords as used in threads?
+a)run => where all logic to be executed is put.
+b)start => starts a thread execution.
+c)new fixed thread pull from executors => creates a fixed number of threads.
+d)shutdown from executor service => Makes sure there no new thread submitted before existing are finished.
+e)sleep => pauses a thread for a specified time.
+f)join => pauses a thread to wait for other thread to finish before continuing.
+g)yield => hints the scheduler to temporarily pause the current thread.
+h)set daemon => marks a thread as a daemon to mean run in the background and stops when all user threads finish.
+i)synchronized => puts a lock on block of code to prevent race conditions.
+j)wait => pauses a thread to release a lock until it is notified.
+k)lock. lock and lock. unlock => it also enables synchronization.
+l)await => advanced form of wait from java. util. concurrent. locks
+m)signal => advanced form of notify from locks package also.
+n)notify => wakes up a waiting thread.
+5. What is a deadlock and synchronized key word?
+=>A deadlock is when threads are waiting for each other's resource indefinitely.
+=>Synchronized keyword follows access modifier which prevents data inconsistency due to the fact that since threads share the same memory there can be race conditions.
+6. What are 5 states of a thread life cycle?
+-New when it is created but not started.
+-Runnable ready to run but waiting for CPU time.
+-Blocked waiting for a lock due to synchronized block.
+-Waiting indefinitely for another thread's signal.
+-Timed waiting for a specified time using sleep or join.
+-Terminated has finished execution.
