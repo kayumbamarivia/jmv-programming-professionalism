@@ -1,0 +1,27 @@
+================================ Reference codes are in OOP project ============================================
+
+1. What are two old legacy date apis in java, and try to explore each in details?
+=> Date class from java. util. Date and Calendar (Singleton class) class from java. util. Calender package?. They both use Simple date formatter class from java. text. Simple Date Formatter package. Again when using Date you should add 1900 years to get 
+actual year since it starts from there.
+=> They are mutable.
+2. Which is a modern that professionals should be using now?
+=> It is java. time which comes with classes such Loca Date, Local Time, Instant, Duration and others. It uses Date Time Formatter class from java. time. format package. They are all singleton classes no use of new for instantiating you only dot the class name.
+=> Every methods return a new object which means they are immutable.
+3. Which classes in java. time are responsible for this?
+a)Date only => Local Date
+b)Time only => Local Time
+c)Date + Time (No time zone) => Local Date Time
+d)Date + Time + Time zone (Full timestamp with offset) => Zoned Date Time
+e)Date + Time + offset (UTC offset but no region) => Offset Date Time
+f)Machine readable time stamp => Instant
+g)Amount of time => Duration
+h)Human time => Period
+i)Represents a time zone => Zone Id
+j)Represents just the UTC offset => Zone Offset.
+k)Formatting time => Date Time Formatter
+4. Define this terms?
+a)Epoch => This is a reference time or the starting point in time at which the time is measured. It is January 1, 1970.
+b)UTC => Stands for Universal Coordinated Time (Coordinate Universal Time),  it is not a time zone but a reference point for time across the world. In java it is represented by Instant class.
+c)Time stamp => The time in seconds or milliseconds that has passed since the epoch (January 1, 1970). It is a precise point in time.
+d)Offset => The difference in time between a specific region and UTC.
+e)Time zone => The sections of the world with the same time, based on their geographical location relative to UTC. We have 24 sections.

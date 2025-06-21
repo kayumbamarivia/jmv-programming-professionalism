@@ -24,7 +24,6 @@ public class Main {
         };
         Thread thread1 = new Thread(task);
         Thread thread2 = new Thread(task);
-        thread1.start();
         thread2.start();
     }
 }

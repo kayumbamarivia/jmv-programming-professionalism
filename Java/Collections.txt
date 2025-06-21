@@ -1,0 +1,26 @@
+1. What is Generics?
+=> This a feature in java which allows us to define type-safe (Type error are caught at compile time), no type casting (No need for casting objects manually), reusable (Use any where) and flexibility code by specifying a placeholder for types. It came with Java 5.
+2. Why can't we have instances or objects of a generic type?
+=> It is because java removes generic types at run time (They become Object) since they are unknown at run time, java doesn't know how to instantiate it.
+3. What are ways we can have generic types in java?
+=> Generic classes, generic method/field (any type but not passed at run time), and generic constructors which work the same way as generic methods.
+4. What are bounded type parameters?
+=> This are generic parameters that restrict a generic to a specific type using extends for classes (Upper bound) and & for multiple bounds (First should be classe and then interface) 
+5. What are wildcards?
+=> They provide flexibility when working with unknown or multiple types <?>. There is unbounded wildcard (Accepts any type) <?>, Upper bounded (accepts any type and subtypes) <? extends type>, and Lower bounded wildcard (Accepts an type and super types) <? super type>. Note that wildcards works only at generic methods and fields and also on instantiation, never use it for generic classes.
+6. What are 5 common descriptive names for generic types?
+=> T (Any type), K (Key), V (Value), E (Element), and N (Number).
+7. What is Reflection java and implement it using codes?
+=> This is a feature that allows a program to inspect and manipulate the properties of classes, interfaces, methods, fields, etc., at run time. It comes from java . lang . reflection package. It has classes such Class, Field, Method, Constructor and Array which gives metadata and other algorithms.
+8. What is java collection framework (JCF)?
+=> A collection in java is a group of objects that can be stored, retrieved, manipulated, and iterated.
+=> JCF is a set or collection of interfaces and classes that handle collections of objects.
+=> It is a part of java. util package
+=> It provides dynamic data structures like Lists (Array List, Linked List, Stack, Vector implementers), Set (Hash Set, Linked Hash Set, Tree Set), Queue (Priority Queue, Deque => Double-Ended Queue, Linked List) (These three are interfaces from Collection interface which is a root interface), and Map (Hash Map, Hash Table, Tree Map, Linked Hash Map) which is a separate interface. They are more flexible and powerful than arrays.
+=> Always choose collections if the size of the data changes at run time and base on the problem statement to choose the suit one.
+9. What is a java stream?
+=> It is a sequence of elements that supports functional-style operations such as filtering, mapping, reducing, and sorting (They do not modify original data, work lazily, sequential or parallel and use functional programming => Lambada and method references). It comes from java .util. stream package. Intermediate operations return new stream lazy execution meaning it can't execute until any terminal operation is executed (map, filter, sorted, distinct, peek, flat map, etc.), and Terminal operations trigger execution and returns result (foreach, collect, reduce, count, all match, none match, find first, find any)
+10. What is function composition and how to implement it in java?
+=> It is a way of combining functions to create a new function. In java we can use and Then or compose functions.
+11. What is currying and how to implement it in java?
+=> It is a way of converting a function that takes multiple arguments into a sequence of functions, each taking a single argument. We use apply method to do so in java.

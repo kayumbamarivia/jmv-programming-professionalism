@@ -1,0 +1,4 @@
+1. What are two advanced automated database migration tools that simplifies the work that was primarily done by hibernate or JPA ORM?
+=> Fly way and Liquibase help for automated database migration.
+2. Provide the URL which has every detail of JDBC features such as packages, classes. etc.
+=> https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html

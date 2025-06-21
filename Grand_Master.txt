@@ -1,0 +1,59 @@
+============================= Land Of Knowledge In Kingdom Of Wise And Intelligent Quotient People ================================================
+Features : security, Mobile development, Designing, Modeling, AI, Projects, Problem finding, Solutions, Reading, Socializing, Connections, gaming, Sport(football, basketball and volleyball) and STEM
+Schedule :
+- Monday to Friday (Inquiring about lessons, blending, designing, and having something to code with committing to GitHub as well as having something in my cache file)
+- Saturday (Sleeping enough, wash clothes, sport, get lunch, choir, other fun things).
+- Sunday (Be with Stanley and other activities on Sunday)
+NB:
+- Every thing should start with God and end with God as He is my best Friend, We shall share each and everything.
+- Some sport time after studies can be left for learning piano.
+- I should follow teachers with full attention as well as asking them questions.
+- Exercise notebook and Formulas book should be present.
+-In inactive state I should read CPH and other books.
+- No self priding and online knowledge warmers are very essential.
+========================== QUOTES ========================================================
+1. Simplicity is the soul of efficiency
+2. Code is like humor, if you have to explain it, it is bad
+3. Programming is not about what you know, but what you can figure out
+4. First solve the problem algorithmically and then write codes
+5. Bad worry about codes whereas good worry about DSA and their relationships
+6. Talk is cheap, show me the codes
+7. Programs are for humans to read, and only incidentally for machine to execute
+8. Any fool can write codes but wise can write codes that humans understand
+9. Before a software can be reusable, it should be used 
+10. A good error message is that one that never shows up
+======================== FIRST CASE =================================================================
+Becoming the world’s greatest Java grandmaster will take me deep knowledge, hands-on experience, and mastery of both core and advanced Java concepts.  
+My Path to Java Mastery 🚀
+1. Master the Core🏗️  
+   - OOP (Inheritance, Polymorphism, Encapsulation, Interface, Instantiation, Abstraction)  
+   - Collections, Generics, Streams, and Functional Programming  
+   - Multithreading & Concurrency  
+   - Design Patterns (Singleton, Adapter, Observer, etc.)  
+   - JVM internals (Memory Management, Garbage Collection)  
+
+2. Becoming a Backend Legend👑  
+   - Spring Framework (Spring Boot, Spring MVC, Spring Security)  
+   - REST APIs & Microservices Architecture  
+   - Database mastery (JPA, Hibernate, SQL, NoSQL)  
+   - Messaging Systems (Kafka, RabbitMQ)  
+
+3. Deep Dive into Performance & Optimization⚡  
+   - JVM Tuning & Profiling  
+   - High-performance coding techniques  
+   - Reactive Programming with Project Reactor  
+
+4. Contributing on Open Source & Build Projects🏗️  
+   - Join Java open-source projects on GitHub  
+   - Write technical blogs, teach others  
+   - Build and showcase real-world applications  
+
+5. Competitive Programming & Problem Solving🤯  
+   - Leets code, Code forces, Hacker rank challenges  
+   - Master algorithms and data structures  
+
+6. Stay Updated & Expand Horizons🌎  
+   - Java 21+ features, new libraries, and best practices  
+   - Explore other Java-related domains (Android, AI/ML with Java, Game Development, etc.)  
+NB: I should not leave also becoming Legendary Grand Master in everything that I do.
+I should live a carefully lif leaving behind my worries and looking for the greater good.

@@ -1,0 +1,48 @@
+1. What is hibernate?
+=> It is the most powerful ORM framework in java. It solves the mismatch between Java's OOP world and the relational database (SQL). It removes the need for writing raw SQL queries. It makes java work with database without stress while improving performance.
+2. What is the differences between hibernate and JDBC?
+=>SQL queries : Manual in JDBC while auto-generated in hibernate.
+=>Object mapping : Manual in JDBC while automatic in hibernate.
+=>Caching : No in JDBC and Yes in hibernate.
+=>Lazy loading : No in JDBC and Yes in hibernate.
+=>Transactional Management : Manual in JDBC and built-in in hibernate.
+2. What are hibernate core concepts?
+=>Session factory and session for managing database interactions.
+=>Persistence context for keeping objects.
+=>Entity life cycle form Transient -> Persistent -> Detached -> Removed.
+=>Hibernate annotations and configurations such @Entity, @Table, etc.
+=>Hibernate Query Language.
+=>Named queries and Native SQL in hibernate.
+=>Transactions and ACID principles in hibernate.
+=>Lazy and Eager loading which are most asked in interviews.
+3. What are basic implementations of Hibernate?
+=>Setup hibernate using maven.
+=>Connect with a relational database using hibernat.cf.xml file in /resources folder and configuration class.
+=>Create an entity and perform CRUD operations.
+=>Use hibernate annotations properly.
+4. What is JPA?
+=> JPA is a specification for managing relational data in Java applications. It is a part of Java EE standard and provides a way to map Java objects to database tables.
+5. What are types of inheritance mapping in JPA?
+=> They are three which are single table, table per class and joined.
+6. What are examples of implementer frameworks of JPA?
+=>Hibernate.
+=>Eclipse Link
+=>Open JPA
+=>Top Link.
+=>etc.
+7. What are basic implementations of JPA?
+=>Setup JPA using maven.
+=>Connect with a relational database using persistence.xml file in /resources/META-INF and configuration class.
+=>Create an entity and perform CRUD operations.
+=>Use JPA annotations properly.
+
+8. What to be discussed and implemented in codes for both JPA and Hibernate?
+=>All basic annotations.
+=>All ways for annotating @Id with generators.
+=>Types of relationships.
+=>Types of inheritance.
+=>Types referential integrity.
+=>Types of loading or fetching.
+=>Types of caching.
+=>HQL, JPQL, Named queries and Native queries.
+=>Paging and sorting with also optimization techniques along with batch processing.

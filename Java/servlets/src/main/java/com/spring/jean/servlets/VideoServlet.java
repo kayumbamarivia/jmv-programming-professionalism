@@ -17,8 +17,8 @@ public class VideoServlet extends HttpServlet {
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try (
-            InputStream videoStream = getServletContext().getResourceAsStream("/WEB-INF/videos/tuzabyina.mp4");
-            OutputStream outputStream = response.getOutputStream()
+                InputStream videoStream = getServletContext().getResourceAsStream("/WEB-INF/videos/tuzabyina.mp4");
+                OutputStream outputStream = response.getOutputStream()
         ){
             response.setContentType("video/mp4");
             response.setHeader("Content-Disposition", "inline; filename=tuzabyina.mp4");

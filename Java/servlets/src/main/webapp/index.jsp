@@ -11,5 +11,12 @@
 <a href="hello-servlet">Hello</a>
 <br />
 <a href="videoFile">Video MIME</a>
+<br />
+<a href="person">Person-form</a>
+<br>
+<div>
+    <h1>${person.getName()}</h1>
+    <h2>${person.getAge()}</h2>
+</div>
 </body>
 </html>

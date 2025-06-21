@@ -1,0 +1,9 @@
+1. What are I/O streams in java?
+=> This input and output streams that provide interface for reading and writing data, either from files or other data sources, in a sequential manner. There exist two types which are Byte stream which handles raw binary data (8-bit) (Classes like File Output Stream, File Input Stream, Buffered Input Stream, etc.) and Character stream (16-bit uni code) (Classes like File Reader, File Writer, Buffered Reader, etc.). They came from java. io package and java. util . NIO. NIO stands for New or Non-blocking I/O which comes with advanced features such as Files, Paths, and File Channel.
+2. What is the importance of buffered streams?
+=> They reduce number of I/O operations enhancing the performance. For instance it can read the whole line instead of character by character.
+3. Which functions are use for the following operations?
+a)Reading lines from a file using Path and Stream API => Files. read Line (path)
+b)Writing data to a file using Path and Stream API=> Files . Write (path, data)
+4. What is object serialization and deserialization?
+=> It is a way of converting data into streams so that it can be transmitted over network. Deserialization is reverse. We use Object Input Stream and Object Output Stream to implement it in java.

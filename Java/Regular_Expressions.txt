@@ -10,7 +10,7 @@
 => Help you to search, match and manipulate text efficiently (sequence of characters that forms a search patterns). In java. util .regex we have Pattern class (compiles the regex), Matcher (matches regex in text) and Pattern Syntax Exception which handles regex errors.
 6. What do we mean by quantifiers , and groups in regex and why them as well as they two special cases or types?
 => Allow control of repetition of elements in a regex pattern. There are greedy quantifiers (match as much as possible) and lazy quantifiers (match as little as possible)
-=> Groups are matched strings (substring). Can be created suing parenthesis.
+=> Groups are matched strings (substring). Can be created using parenthesis.
 7. How to implement with their symbols the following famous and main knowledge root for understanding the regular expression in any programming language?
 a)Any digit and non digit => \d, \D
 b)Any word character and non character => \w, \W
@@ -31,6 +31,7 @@ p)Grouping => ()
 q)Case insensitive match  => (?i)
 r)Allow any content before, between and after => .*
 s)Back references (Points to previous group) => \1, \2, etc.
+t)A single character => .
 8. Try to implement this in codes? 
 -only letters from start to the end
 -valid email

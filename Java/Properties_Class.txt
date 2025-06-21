@@ -1,0 +1,6 @@
+1. What is properties class?
+=> This is a map-like structure used to store configuration data in the form of key=value pairs. It comes from java. util . Properties package. You can read data from internal or external file.
+2. Why use properties?
+=>Store configuration for apps like database url, username, etc. Load/save from .properties files, and great for extending settings.
+3. What are some mastery checklist?
+=> Create its object, load from file, save to file, use default properties, handle missing keys, iterate over all properties, and convert to map string.

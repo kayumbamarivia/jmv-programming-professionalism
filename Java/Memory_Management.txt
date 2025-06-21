@@ -1,0 +1,21 @@
+1. What is JVM and Garbage collection?
+=> It is a java compiler which runs java byte codes, memory management and handles execution.
+=> Garbage collection is a feature for memory management in java which is used to remove objects that no longer needed (unused, un referenced, weekly referenced, soft referenced and phantom referenced).
+2. Which regions do JVM use in Memory Management and Garbage collection?
+=> Method Area (Meta space), Heap (Split into Young Generation => into Eden Space and Survivor Space, Old Generation (Tenured Generation)), Stack, Program Counter (PC) Register, and Native Method Stack.
+3. Which regions are responsible for this in memory management?
+a)Storing class definitions, methods and other metadata about your application (When JVM starts it loads your classes in that area) => Method Area or Meta Space.
+b)Stores all objects and arrays => Heap.
+c)Space for new objects => Young generation type of Heap.
+d)Newly created objects => Eden space type of Young generation.
+e)Objects that survived the first round of garbage collection => Survival space type of Young Generation.
+f)Space for long lived objects which survived multiple garbage collection cycles in young generation => Old generation type of Heap.
+g)Sores local variables, method calls, and the call stack => Stack.
+h)Tracks the current instructions being executed by each thread => Program Counter Register
+i)Handles native methods (like methods written in C or C++) => Native Methods Stack.
+j)Cleaning up the young generation => Minor GC.
+k)Cleaning up Old generation => Major GC.
+l)Uses a single thread in cleaning => Serial GC algorithm.
+l)Uses multiple Threads in cleaning => Parallel Gc algorithm
+3. What is a symbol table?
+=> This is the data structure used by the compiler  or interpreter to store information about variables, functions, objects and other identifiers in a program. 
