@@ -1,16 +1,5 @@
-============================= Land Of Knowledge In Kingdom Of Wise And Intelligent Quotient People ================================================
-Features : security, Mobile development, Designing, Modeling, AI, Projects, Problem finding, Solutions, Reading, Socializing, Connections, gaming, Sport(football, basketball and volleyball) and STEM
-Schedule :
-- Monday to Friday (Inquiring about lessons, blending, designing, and having something to code with committing to GitHub as well as having something in my cache file)
-- Saturday (Sleeping enough, wash clothes, sport, get lunch, choir, other fun things).
-- Sunday (Be with Stanley and other activities on Sunday)
-NB:
-- Every thing should start with God and end with God as He is my best Friend, We shall share each and everything.
-- Some sport time after studies can be left for learning piano.
-- I should follow teachers with full attention as well as asking them questions.
-- Exercise notebook and Formulas book should be present.
--In inactive state I should read CPH and other books.
-- No self priding and online knowledge warmers are very essential.
+============================= Land Of Knowledge In Kingdom Of Wise ================================================
+Features : Security, Mobile development, Designing, Modeling, AI, Projects, Problem finding, Solutions, Reading, Socializing, Connections, gaming, Sports and STEM
 ========================== QUOTES ========================================================
 1. Simplicity is the soul of efficiency
 2. Code is like humor, if you have to explain it, it is bad
@@ -23,8 +12,7 @@ NB:
 9. Before a software can be reusable, it should be used 
 10. A good error message is that one that never shows up
 ======================== FIRST CASE =================================================================
-Becoming the world’s greatest Java grandmaster will take me deep knowledge, hands-on experience, and mastery of both core and advanced Java concepts.  
-My Path to Java Mastery 🚀
+My Path to Java Mastery (But other programming languages are also included === They're just the same thing in different cases) 🚀
 1. Master the Core🏗️  
    - OOP (Inheritance, Polymorphism, Encapsulation, Interface, Instantiation, Abstraction)  
    - Collections, Generics, Streams, and Functional Programming  
@@ -55,5 +43,4 @@ My Path to Java Mastery 🚀
 6. Stay Updated & Expand Horizons🌎  
    - Java 21+ features, new libraries, and best practices  
    - Explore other Java-related domains (Android, AI/ML with Java, Game Development, etc.)  
-NB: I should not leave also becoming Legendary Grand Master in everything that I do.
-I should live a carefully lif leaving behind my worries and looking for the greater good.
+NB: I should live a carefully life leaving behind my worries and looking for the greater good.
